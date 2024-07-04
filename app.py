@@ -1,5 +1,5 @@
 
-from cal_func import do_addition ,do_substraction 
+from cal_func import do_addition ,do_substraction ,do_division
 from multiply import do_multiply
 def main():
     print("welcome to the calculator")
@@ -20,6 +20,9 @@ def main():
         result= do_substraction(a,b)
     elif user_input =="3":
         result= do_multiply(a,b)
+    elif user_input =="4":
+        result= do_division(a,b)
+
     print("result",result)
 if __name__=="__main__":
     main()
